@@ -16,11 +16,11 @@ public class VehicleController {
 
     @GetMapping("/")
     public String index() {
-        return "Welcome to Sixt! 💩";
+        return "Welcome at Sixt";
     }
 
     @GetMapping("/vehicle")
-    public List<Vehicle> listCharacter() {
+    public List<Vehicle> vehicleList() {
         return vehicleJpa.findAll();
     }
 

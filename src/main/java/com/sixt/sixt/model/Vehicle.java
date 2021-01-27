@@ -6,7 +6,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity(name = "vehicles")
-public abstract class Vehicle {
+public class Vehicle {
 
     @Id
     @GeneratedValue
